@@ -51,10 +51,10 @@ function feast(cash, price, wrappers) {
     if (ChocoBought - wrappers === 0) {
         savedWrappers++;
     } else {
-        //add the wrappers from chocoolate purchased to savedWrappers
+        //add the wrappers from chocolate purchased to savedWrappers
         savedWrappers += ChocoBought;
         if (savedWrappers > wrappers) {
-            //Turn in any saved wrappers for a free chocolate
+            //turn in any saved wrappers for a free chocolate
             savedWrappers -= wrappers;
             //the number of free chocoalates
             savedWrappers += savedWrappers % wrappers;
